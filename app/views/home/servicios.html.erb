@@ -1,2 +1,28 @@
 <div class="header-2">
-    
+    <h1 class="subtitle pl-2 mt-5 pt-5">NUESTROS SERVICIOS</h1>
+</div>
+
+<div class="container my-5">
+        <p class="text-center pb-4"> Comprometidos con la tranquilidad y seguridad de nuestros clientes. </p>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <%= image_tag "DerechoPenal.jpg", alt: "logo", class: "card-img-top" %>
+                        <div class="card-body">
+                            <p class="card-text text-center">Derecho Penal</p>
+                            <%= link_to 'Más Información', derecho_penal_path, class: 'btn btn-sm btn-custom card-button' %>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 pl-1">
+                    <div class="card" style="width: 19rem;">
+                        <%= image_tag "DerechoLaboral.jpg", alt: "logo", class: "card-img-top", style: "height: 13.3rem;"%>
+                        <div class="card-body">
+                            <p class="card-text text-center">Derecho Laboral</p>
+                            <%= link_to 'Más Información', derecho_laboral_path, class: 'btn btn-sm btn-custom card-button' %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+                                

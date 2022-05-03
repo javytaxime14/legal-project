@@ -13,14 +13,12 @@
           <%= link_to 'QUIENES SOMOS', quienes_somos_path, class: 'nav-link' %>
         </li>
         <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          SERVICIOS
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><%= link_to 'Derecho Penal', derecho_penal_path, class: 'dropdown-item' %></li>
-          <li><%= link_to 'Derecho Laboral', derecho_laboral_path, class: 'dropdown-item' %></li>
-        </ul>
-      </li>
+          <%= link_to 'SERVICIOS', servicios_path, class: 'nav-link dropdown-toggle', id: 'navbarDropdown', role: 'button', data: 'toggle' %>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><%= link_to 'Derecho Penal', derecho_penal_path, class: 'dropdown-item' %></li>
+            <li><%= link_to 'Derecho Laboral', derecho_laboral_path, class: 'dropdown-item' %></li>
+          </ul>
+        </li>
         <li class="nav-item">
           <%= link_to 'CONTACTO', contacto_path, class: 'nav-link' %>
         </li>
