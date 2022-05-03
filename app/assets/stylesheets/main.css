@@ -134,6 +134,36 @@
   margin-right: 40px;
 }
 
+.contact-info {
+  padding-top: 60px;
+  margin-left: 13px;
+  margin-right: 40px;
+}
+
+.whatsapp {
+  width: 30px;
+  height: 30px;
+  margin-right: 7px;
+}
+
+.mail {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.ubicacion {
+  width: 28px;
+  height: 28px;
+  margin-right: 5px;
+}
+
+.web {
+  width: 32px;
+  height: 24px;
+  margin-right: 7px;
+}
+
 @media only screen and (max-width: 600px) {
 
   .navbar {
@@ -194,6 +224,19 @@
     margin-right: 10px;
     max-width: 100%;
     text-shadow: rgb(7, 7, 7) 0px 0px 20px;
+  }
+
+  .subtitle-3 {
+    position: relative;
+    font-weight: 600;
+    color: #000;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    left: 3px;
+    padding-left: 6px;
+    margin-left: 60px;
+    margin-right: 10px;
+    max-width: 100%;
   }
 
   .about-us {
@@ -269,6 +312,7 @@
     font-weight: 600;
     margin-left: 16px;
   }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -397,7 +441,7 @@
   .subtitle-3 {
     position: relative;
     font-weight: 600;
-    color: #fff;
+    color: #000;
     margin-top: 90px;
     margin-bottom: 20px;
     left: 15px;
@@ -405,7 +449,6 @@
     margin-left: 60px;
     margin-right: 10px;
     max-width: 100%;
-    text-shadow: rgb(7, 7, 7) 0px 0px 20px;
   }
 
 }
