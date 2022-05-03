@@ -165,11 +165,11 @@
 }
 
 .card-button {
-  margin-left: 63px;
+  margin-left: 53px;
 }
 
 .card-button-2 {
-  margin-left: 75px;
+  margin-left: 53px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -321,6 +321,46 @@
     margin-left: 16px;
   }
 
+  .card {
+    margin-top: 15px;
+    padding: 15px;
+
+  }
+
+  .subtitle-4 {
+    position: relative;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    left: 10px;
+    padding-left: 60px;
+    margin-left: 60px;
+    margin-right: 10px;
+    max-width: 100%;
+    text-shadow: rgb(7, 7, 7) 0px 0px 26px;
+    }
+
+    .card {
+      margin-left: 15px;
+      padding: 15px;
+  
+    }
+  
+    .subtitle-4 {
+      position: relative;
+      font-weight: 600;
+      color: #fff;
+      margin-top: 75px;
+      margin-bottom: 20px;
+      left: 10px;
+      padding-left: 128px;
+      margin-left: 60px;
+      margin-right: 10px;
+      max-width: 100%;
+      text-shadow: rgb(7, 7, 7) 0px 0px 26px;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -457,6 +497,26 @@
     margin-left: 60px;
     margin-right: 10px;
     max-width: 100%;
+  }
+
+  .card {
+    margin-left: 20px;
+    padding: 15px;
+
+  }
+
+  .subtitle-4 {
+    position: relative;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    left: 10px;
+    padding-left: 128px;
+    margin-left: 60px;
+    margin-right: 10px;
+    max-width: 100%;
+    text-shadow: rgb(7, 7, 7) 0px 0px 26px;
   }
 
 }

@@ -13,8 +13,12 @@
           <%= link_to 'QUIENES SOMOS', quienes_somos_path, class: 'nav-link' %>
         </li>
         <li class="nav-item dropdown">
-          <%= link_to 'SERVICIOS', servicios_path, class: 'nav-link dropdown-toggle', id: 'navbarDropdown', role: 'button', data: 'toggle' %>
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        SERVICIOS
+      </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><%= link_to 'Servicios', servicios_path, class: 'dropdown-item' %></li>
+            <li><hr class="dropdown-divider"></li>
             <li><%= link_to 'Derecho Penal', derecho_penal_path, class: 'dropdown-item' %></li>
             <li><%= link_to 'Derecho Laboral', derecho_laboral_path, class: 'dropdown-item' %></li>
           </ul>
