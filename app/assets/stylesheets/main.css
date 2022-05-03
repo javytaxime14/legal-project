@@ -187,6 +187,11 @@
   font-family: 'Cambria', serif;
 }
 
+.card-text {
+  font-family: 'Cambria', serif;
+}
+
+
 @media only screen and (max-width: 600px) {
 
   .navbar {
@@ -250,6 +255,20 @@
   }
 
   .subtitle-3 {
+    position: relative;
+    font-weight: 600;
+    color: #000;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    left: 3px;
+    padding-left: 6px;
+    margin-left: 60px;
+    margin-right: 10px;
+    max-width: 100%;
+    font-family: 'Cambria', serif;
+  }
+
+  .subtitle-5 {
     position: relative;
     font-weight: 600;
     color: #000;
@@ -344,6 +363,20 @@
 
   }
 
+  .subtitle-5 {
+    position: relative;
+    font-weight: 600;
+    color: #000;
+    margin-top: 36px;
+    margin-bottom: 20px;
+    left: 3px;
+    padding-left: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    max-width: 100%;
+    font-family: 'Cambria', serif;
+  }
+
   .subtitle-4 {
     font-weight: 600;
     color: #fff;
@@ -360,8 +393,12 @@
     .card {
       margin-left: 15px;
       padding: 15px;
-  
     }
+
+    .card-text {
+      font-family: 'Cambria', serif;
+    }
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -519,6 +556,24 @@
     margin-right: 10px;
     max-width: 100%;
     text-shadow: rgb(7, 7, 7) 0px 0px 26px;
+    font-family: 'Cambria', serif;
+  }
+
+  .subtitle-5 {
+    position: relative;
+    font-weight: 600;
+    color: #000;
+    margin-top: 36px;
+    margin-bottom: 20px;
+    left: 3px;
+    padding-left: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    max-width: 100%;
+    font-family: 'Cambria', serif;
+  }
+
+  .card-text {
     font-family: 'Cambria', serif;
   }
 
