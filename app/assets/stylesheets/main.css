@@ -168,6 +168,10 @@
   margin-left: 63px;
 }
 
+.card-button-2 {
+  margin-left: 75px;
+}
+
 @media only screen and (max-width: 600px) {
 
   .navbar {
