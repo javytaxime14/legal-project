@@ -24,6 +24,12 @@
 
 .navbar-brand {
   margin-left: 32px;
+  width: 30px;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
 }
 
 .header {
@@ -36,14 +42,15 @@
 }
 
 .header-2 {
-  background-image: url("home.jpg");
+  background-image: url("logo instagram-02.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50px;
-  padding-bottom: 80px;
+  padding-top: 250px;
+  padding-bottom: 90px;
   background-position: center;
   margin-top: 55px;
   max-width: 100%;
+  opacity: 0.5;
 }
 
 .subtitle {
@@ -230,10 +237,10 @@
     position: relative;
     font-weight: 600;
     color: #fff;
-    margin-top: 68px;
+    margin-top: 81px;
     margin-bottom: 20px;
     left: 15px;
-    padding-left: 58px;
+    padding-left: 10px;
     margin-left: 60px;
     margin-right: 10px;
     max-width: 100%;
@@ -439,16 +446,17 @@
 
   .subtitle {
     position: relative;
-    font-weight: 600;
+    font-weight: 800;
     color: #fff;
-    margin-top: 68px;
+    margin-top: 108px;
     margin-bottom: 20px;
     left: 15px;
-    padding-left: 146px;
+    padding-left: 60px;
     margin-left: 60px;
     margin-right: 10px;
     max-width: 100%;
-    text-shadow: rgb(7, 7, 7) 0px 0px 20px;
+    text-shadow: rgb(7, 7, 7) 0px 0px 35px;
+    opacity: 1;
   }
 
   .subtitle-2 {
