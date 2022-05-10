@@ -205,6 +205,15 @@
     border-bottom: 2px solid rgb(194, 142, 29);
   }
 
+  
+.navbar-nav {
+  margin-left: 30px;
+  margin-top: 15px;
+  font-weight: 600;
+  font-family: 'Cambria', serif;
+  color: #000;
+}
+
   .header {
     padding-top: 50px;
     padding-bottom: 90px;
@@ -410,6 +419,15 @@
 }
 
 @media only screen and (min-width: 768px) {
+
+  .navbar-nav {
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-family: 'Cambria', serif;
+    color: #000;
+  }
+
   .header {
     padding-top: 50px;
     padding-bottom: 60px;
@@ -588,3 +606,13 @@
   }
 
 }
+
+@media only screen and (min-width: 992px) {
+
+  .navbar-nav {
+    margin-left: auto;
+    margin-top: 15px;
+    font-weight: 600;
+    font-family: 'Cambria', serif;
+    color: #000;
+  }
