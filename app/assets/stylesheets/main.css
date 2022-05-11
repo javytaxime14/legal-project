@@ -605,6 +605,11 @@
     font-family: 'Cambria', serif;
   }
 
+  .contacto {
+    position: relative;
+    top: -150px;
+  }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -616,3 +621,4 @@
     font-family: 'Cambria', serif;
     color: #000;
   }
+}
